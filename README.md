@@ -57,9 +57,10 @@ This is similar to the NTFS-LZNT1 compression built-in to Windows (Right click >
 
 ####
  
-<p>Download from <a href="[https://github.com/AuronSV/CompactGUI_/releases]"><b>GitHub Releases</b></a></p>
+Download from [<b>GitHub Releases</b>](https://github.com/AuronSV/CompactGUI_/releases)
 
-Coming soon: Download from Windows 10/11 Store
+Forked from [IridiumIO/CompactGUI](https://github.com/IridiumIO/CompactGUI)
+
   
 ## Uses
 Use this tool to compress folders while still being able to use/run them normally: 
