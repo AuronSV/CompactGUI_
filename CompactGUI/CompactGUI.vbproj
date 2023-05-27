@@ -11,7 +11,7 @@
     <Authors>ImminentFate</Authors>
     <Company>IridiumIO</Company>
     <Description>GUI for the Windows compact.exe command-line tool.</Description>
-    <Copyright>Copyright © 2022</Copyright>
+    <Copyright>Copyright © 2023</Copyright>
     <PackageProjectUrl>https://github.com/IridiumIO/CompactGUI/</PackageProjectUrl>
     <ApplicationIcon>icon.ico</ApplicationIcon>
   </PropertyGroup>
@@ -19,11 +19,15 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
     <WarningsAsErrors></WarningsAsErrors>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DefineDebug>True</DefineDebug>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
     <WarningsAsErrors></WarningsAsErrors>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DefineDebug>False</DefineDebug>
   </PropertyGroup>
 
   <ItemGroup>
@@ -57,6 +61,22 @@
   <ItemGroup>
     <ProjectReference Include="..\CompactGUI.Core\CompactGUI.Core.vbproj" />
     <ProjectReference Include="..\CompactGUI.Watcher\CompactGUI.Watcher.vbproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="My Project\Settings.Designer.vb">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="My Project\Settings.settings">
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
   </ItemGroup>
 
 </Project>

@@ -11,7 +11,7 @@ Public Class MainViewModel : Inherits ObservableObject
     Sub New()
         SettingsHandler.InitialiseSettings()
         WikiHandler.GetUpdatedJSON()
-        FireAndForgetCheckForUpdates()
+        '        FireAndForgetCheckForUpdates()
         InitialiseNotificationTray()
         Watcher = New Watcher.Watcher   'This naming isn't going to get confusing at all...
 
